@@ -3,6 +3,10 @@
     background-color: #039350;
   }
   html{scroll-behavior: smooth;}
+  /* make header always 100 percent height */
+  header{
+    height: 100vh;
+  }
   label{
     padding-top: 0.5em;
     padding-bottom: 4px;
@@ -12,6 +16,7 @@
     background: linear-gradient(90deg,black, transparent, black);
     padding: 0.5em 0 1em 0;
   }
+  
    hr{
     line-height: 2px;
     color: white;
@@ -38,6 +43,13 @@
   height: 2.5em;
   width: 2.5em;
   white-space: nowrap;
+}
+
+div.navbar-collapse {
+    padding-bottom: 1.5em;
+}
+section.aboutUs{
+    background-color: #000000;
 }
 
 

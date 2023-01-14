@@ -1,0 +1,66 @@
+::selection{
+    color: #ffc107;
+    background-color: #039350;
+  }
+  html{scroll-behavior: smooth;}
+  label{
+    padding-top: 0.5em;
+    padding-bottom: 4px;
+  }
+  nav.navbar.navbar-expand-lg.navbar-dark{
+    /* nav bar that fades out in the middle */
+    background: linear-gradient(90deg,black, transparent, black);
+    padding: 0.5em 0 1em 0;
+  }
+   hr{
+    line-height: 2px;
+    color: white;
+    border: 1px solid white;
+    opacity: 75%;
+  }
+  .backGreen{
+    background-color: green;
+  }
+  .top {
+  --offset: 1em; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: var(--offset);
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 200px;
+  height: 2.5em;
+  width: 2.5em;
+  white-space: nowrap;
+}
+
+
+  /* small screens */
+  @media screen and (min-width: 576px) {
+  }
+  /* medium screens */
+  @media screen and (min-width: 768px) {
+
+  }
+  /* large screens */
+  @media screen and (min-width: 992px) {
+    /* adapt nav bar to screen size */
+    nav.navbar.navbar-expand-lg.navbar-dark{padding: 1em 0em}
+    /* adapt navbar to screen size */
+    div#navbarSupportedContent.navbar-collapse.collapse{padding-bottom: 0;}
+    
+  }
+  /* xl screens */
+  @media screen and (min-width: 1200px) {
+
+  }
+  /* xxl screens */
+  @media screen and (min-width: 1400px) {
+    
+  }

@@ -3,10 +3,7 @@
     background-color: #039350;
   }
   html{scroll-behavior: smooth;}
-  /* make header always 100 percent height */
-  header{
-    height: 100vh;
-  }
+   
   label{
     padding-top: 0.5em;
     padding-bottom: 4px;
@@ -16,7 +13,6 @@
     background: linear-gradient(90deg,black, transparent, black);
     padding: 0.5em 0 1em 0;
   }
-  
    hr{
     line-height: 2px;
     color: white;
@@ -58,7 +54,7 @@ section.aboutUs{
   }
   /* medium screens */
   @media screen and (min-width: 768px) {
-
+    
   }
   /* large screens */
   @media screen and (min-width: 992px) {
